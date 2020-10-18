@@ -7,7 +7,7 @@ const weather = require('./utils/weather')
 const hbs = require('hbs')
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // console.log(__dirname);
 // console.log(path.join(__dirname, '../public'));
@@ -135,4 +135,5 @@ app.get('*', (req, res) => {
 
 app.listen(port, () =>{
     console.log(`Server is ready at ${port}`)
-});
+ });
+

@@ -28,7 +28,7 @@ const weather = document.getElementById('weather');
     const location = search.value;
     // console.log(location);
 
-    fetch(`http://localhost:3000/weather?address=${location}`).then((response)=>{
+    fetch(`/weather?address=${location}`).then((response)=>{
         response.json().then((data)=>{
 
             if(data.error){
