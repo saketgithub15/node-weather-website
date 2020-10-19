@@ -34,3 +34,16 @@ header a {
     /* text-decoration: underline; */
     text-decoration: none;
 }
+
+input{
+    padding: 5px;
+    outline: thistle;
+}
+button{
+    outline: none;
+    background-color: wheat;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
