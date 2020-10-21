@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
- <header>
-      <h1>{{title}}</h1>
+ <header class="header">
 
-    <div>
-        <a href="/">Weather</a>
-        <a href="/about">About</a>
-        <a href="/help">help</a>
+      <div class="header__icon">
+          <img src="img/weather.jpg" alt="" class="header__image">
+      </div>  
+
+      <h1 class="header__title">{{title}}</h1>
+      
+
+    <div class="header__links">
+        <a class="header__link" href="/">Weather</a>
+        <a class="header__link" href="/about">About</a>
+        <a class="header__link" href="/help">Help</a>
     </div>
 
  </header>   

@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
+    "check": "nodemon src/app.js -e js,hbs",
     "start": "node src/app.js"
   },
   "keywords": [],

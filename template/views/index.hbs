@@ -7,17 +7,29 @@
     <title>Document</title>
 </head>
 <body>
+    
+
+ 
+  <div class="container">
      {{>header}}
     {{!-- <h1>{{title}}</h1> --}}
-    <p>Search the location here:</p>
-  <div class="weather">
-       <input type="text" placeholder="location"> 
-       <button class="weather_search">Search</button>
-
+   
+  <div class="section__weather">
+    <h3 class="section__weather-heading">Search the location here:</h3>
+        <div class="section__weather-body">
+              <div class="section__search">
+                  <input type="text" placeholder="location" class="input-box"> 
+                  <button class="weather_search">Search</button>
+              </div>
+        </div> 
        <p id="weather">weather</p>
-       <p id="location">Deos</p>
+       <p id="location"></p>
+  </div> 
+    
      
   </div>  
+
+
 
 
 
